@@ -1,0 +1,26 @@
+2021-07-23 10:19:08 error: job creation failed!
+2021-07-23 10:19:57 error: job creation failed!
+2021-07-23 10:21:21 error: job creation failed!
+2021-07-23 11:01:23 error: job creation failed!
+2021-07-23 11:02:22 error: job creation failed!
+2021-07-23 11:03:54 error: job creation failed!
+2021-07-23 11:07:44 error: job creation failed!
+2021-07-23 11:17:08 error: Cannot read property 'crontab' of undefined - job creation failed!
+2021-07-23 11:22:14 error: undefiend is not defined - job creation failed!
+2021-07-23 11:33:07 error: Error: (conn=2625, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[object Object]' at line 1
+sql: DELETE FROM config where id = [object Object] - parameters:[]
+2021-07-23 11:37:25 error: pasreInt is not defined - job deletion failed!
+2021-07-23 11:55:09 error: Cannot read property 'toggle' of undefined - toggle control failed!
+2021-07-23 13:50:57 error: data is not defined - job list update failed
+2021-07-23 13:51:08 error: Error: (conn=3116, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'crontab   = "25 30 * * * *",
+     jobname   = "jobname ",
+     username  = " ...' at line 6
+sql: UPDATE config SET 
+     endpoint  = "http://ajuuniv/sdsd/refresh",
+     data_type = "user/faculty",
+     password  = " dsdsd",
+     term      = "20220301"
+     crontab   = "25 30 * * * *",
+     jobname   = "jobname ",
+     username  = " dsdsds",
+     action    = "refresh" where id = 3  - parameters:[]

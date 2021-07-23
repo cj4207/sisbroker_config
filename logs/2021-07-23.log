@@ -1,0 +1,107 @@
+2021-07-23 10:19:08 error: job creation failed!
+2021-07-23 10:19:57 error: job creation failed!
+2021-07-23 10:21:21 error: job creation failed!
+2021-07-23 10:59:50 info: query completed
+2021-07-23 10:59:50 info: job creaated!
+2021-07-23 11:00:11 info: query completed
+2021-07-23 11:00:11 info: job creaated!
+2021-07-23 11:00:48 info: query completed
+2021-07-23 11:00:48 info: job creaated!
+2021-07-23 11:01:23 info: query completed
+2021-07-23 11:01:23 error: job creation failed!
+2021-07-23 11:01:41 info: query completed
+2021-07-23 11:01:41 info: job creaated!
+2021-07-23 11:02:22 info: query completed
+2021-07-23 11:02:22 error: job creation failed!
+2021-07-23 11:03:54 info: query completed
+2021-07-23 11:03:54 error: job creation failed!
+2021-07-23 11:04:43 info: query completed
+2021-07-23 11:04:43 info: job creaated!
+2021-07-23 11:05:12 info: query completed
+2021-07-23 11:05:12 info: job creaated!
+2021-07-23 11:05:23 info: query completed
+2021-07-23 11:05:24 info: job creaated!
+2021-07-23 11:05:48 info: query completed
+2021-07-23 11:05:48 info: job creaated!
+2021-07-23 11:06:09 info: query completed
+2021-07-23 11:06:09 info: job creaated!
+2021-07-23 11:06:26 info: query completed
+2021-07-23 11:06:26 info: job creaated!
+2021-07-23 11:06:36 info: query completed
+2021-07-23 11:06:36 info: job creaated!
+2021-07-23 11:06:57 info: query completed
+2021-07-23 11:06:57 info: job creaated!
+2021-07-23 11:07:44 info: query completed
+2021-07-23 11:07:44 error: job creation failed!
+2021-07-23 11:08:23 info: query completed
+2021-07-23 11:08:23 info: query completed
+2021-07-23 11:08:23 info: job creaated!
+2021-07-23 11:17:08 info: query completed
+2021-07-23 11:17:08 error: Cannot read property 'crontab' of undefined - job creation failed!
+2021-07-23 11:22:14 error: undefiend is not defined - job creation failed!
+2021-07-23 11:24:43 info: query completed
+2021-07-23 11:24:43 info: query completed
+2021-07-23 11:24:43 info: http://ajuuniv/endpoint 20220301 user/faculty  configure refresh   minsukan refresh created!
+2021-07-23 11:25:16 info: query completed
+2021-07-23 11:25:16 info: query completed
+2021-07-23 11:25:16 info: http://ajuuniv/endpoint 20220301 user/faculty  configure refresh   minsukan refresh created!
+2021-07-23 11:33:07 error: Error: (conn=2625, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '[object Object]' at line 1
+sql: DELETE FROM config where id = [object Object] - parameters:[]
+2021-07-23 11:33:07 info: jobId : [object Object] deleted!
+2021-07-23 11:36:14 info: jobId : [object Object] deleted!
+2021-07-23 11:37:05 info: jobId : 5 deleted!
+2021-07-23 11:37:25 error: pasreInt is not defined - job deletion failed!
+2021-07-23 11:37:38 info: jobId : 5 deleted!
+2021-07-23 11:38:19 info: query completed
+2021-07-23 11:38:19 info: jobId : 4 deleted!
+2021-07-23 11:45:58 info: jobId : 3 toggle turned on 
+2021-07-23 11:46:11 info: query completed
+2021-07-23 11:46:11 info: jobId : 3 toggle turned on 
+2021-07-23 11:47:36 info: query completed
+2021-07-23 11:47:36 info: jobId : 3 toggle turned on 
+2021-07-23 11:50:27 info: query completed
+2021-07-23 11:50:27 info: jobId : 3 toggle turned on 
+2021-07-23 11:50:42 info: query completed
+2021-07-23 11:50:42 info: jobId : 3 toggle turned on 
+2021-07-23 11:52:46 info: query completed
+2021-07-23 11:52:59 info: query completed
+2021-07-23 11:52:59 info: query completed
+2021-07-23 11:52:59 info: jobId : 3 toggle turned off 
+2021-07-23 11:53:49 info: query completed
+2021-07-23 11:53:49 info: query completed
+2021-07-23 11:53:49 info: jobId : 3 toggle turned on 
+2021-07-23 11:54:55 info: query completed
+2021-07-23 11:54:55 info: query completed
+2021-07-23 11:54:55 info: jobId : 3 toggle turned on 
+2021-07-23 11:55:09 info: query completed
+2021-07-23 11:55:09 error: Cannot read property 'toggle' of undefined - toggle control failed!
+2021-07-23 11:56:56 info: query completed
+2021-07-23 11:57:18 info: query completed
+2021-07-23 13:50:57 info: query completed
+2021-07-23 13:50:57 error: data is not defined - job list update failed
+2021-07-23 13:51:08 info: query completed
+2021-07-23 13:51:08 error: Error: (conn=3116, no: 1064, SQLState: 42000) You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'crontab   = "25 30 * * * *",
+     jobname   = "jobname ",
+     username  = " ...' at line 6
+sql: UPDATE config SET 
+     endpoint  = "http://ajuuniv/sdsd/refresh",
+     data_type = "user/faculty",
+     password  = " dsdsd",
+     term      = "20220301"
+     crontab   = "25 30 * * * *",
+     jobname   = "jobname ",
+     username  = " dsdsds",
+     action    = "refresh" where id = 3  - parameters:[]
+2021-07-23 13:51:08 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
+2021-07-23 13:56:33 info: query completed
+2021-07-23 13:56:33 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
+2021-07-23 13:58:21 info: query completed
+2021-07-23 13:58:21 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
+2021-07-23 13:58:42 info: query completed
+2021-07-23 13:58:42 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
+2021-07-23 13:59:59 info: query completed
+2021-07-23 13:59:59 info: query completed
+2021-07-23 13:59:59 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
+2021-07-23 14:00:22 info: query completed
+2021-07-23 14:00:22 info: query completed
+2021-07-23 14:00:22 info: 20220301 user/faculty jobname   dsdsds refresh has been updated! 
